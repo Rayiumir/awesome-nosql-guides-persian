@@ -19,7 +19,7 @@
 ## فهرست محتوا
 
 - [مروری بر NoSQL](#overview-of-nosql)
-- [Data Structures and Modeling](#data-structures-and-modeling)
+- [ساختار داده ها و مدل سازی](#data-structures-and-modeling)
 - [Trade-Offs in CAP/Brewer's Theorem](#trade-offs-in-capbrewers-theorem)
 - [Crowd-Sourced Information](#crowd-sourced-information)
 - [Graph Databases](#graph-databases)
@@ -121,14 +121,38 @@
 
 ## Data Structures and Modeling
 
-- [Structure Your Database](https://firebase.google.com/docs/database/android/structure-data) - Best practices (as of 2018) of structuring your data if your database uses JSON.
-- [NoSQL Data Modeling Techniques (2012)](https://highlyscalable.wordpress.com/2012/03/01/nosql-data-modeling-techniques/) - This article provides a short comparison of NoSQL system families from the data modeling point of view and digests several common modeling techniques.
-- [Data Models For MongoDB](https://www.mongodb.com/docs/manual/data-modeling/) - Data modeling help specific to MongoDB, ranging from schema validation and example patterns. However, concepts may carry over to other document NoSQL databases.
-- [Data Models Will Be Beautiful Again (2016)](https://tdwi.org/articles/2016/11/22/data-models-will-be-beautiful-again.aspx) - Essay argues that despite existing schema-less databases, thoughtful database modeling is important to gain knowledge and insights using algorithms.
-- [Unified Data Modeling for Relational and NoSQL Databases](https://www.infoq.com/articles/unified-data-modeling-for-relational-and-nosql-databases/) - Solution for managing both NoSQL and relational databases using the Unified Data Modeling technique.
-- [Unifying Relational, Document, Graph, and Temporal Data Models](https://fauna.com/blog/unifying-relational-document-graph-and-temporal-data-models) - Patterns for querying across multiple paradigms in the same database.
-- [How To Design Schema For Your NoSQL Database?](https://www.dataversity.net/how-to-design-schema-for-your-nosql-database/#) - Despite popular belief that NoSQL are schema-less, this article outlines how NoSQL databases follow "query driven design" and considerations for this flexibility in schema.
-- [Best Practices for NoSQL Database Design (2012)](https://softwareengineering.stackexchange.com/q/158790/) - A couple answers and links for NoSQL database design.
+- [Structure Your Database](https://firebase.google.com/docs/database/android/structure-data) 
+
+<p align="right">اگر پایگاه داده شما از JSON استفاده می کند، بهترین روش ها (از سال 2018) برای ساختار داده های شما.</p>
+
+- [NoSQL Data Modeling Techniques (2012)](https://highlyscalable.wordpress.com/2012/03/01/nosql-data-modeling-techniques/)
+- 
+<p align="right">این مقاله مقایسه کوتاهی از خانواده‌های سیستم NoSQL از دیدگاه مدل‌سازی داده ارائه می‌کند و چندین تکنیک مدل‌سازی رایج را هضم می‌کند.</p> 
+
+- [Data Models For MongoDB](https://www.mongodb.com/docs/manual/data-modeling/) 
+
+<p align="right">مدل‌سازی داده‌ها به MongoDB کمک می‌کند، از اعتبارسنجی schema و الگوهای نمونه. با این حال، مفاهیم ممکن است به سایر پایگاه‌های داده NoSQL منتقل شوند.</p>
+
+- [Data Models Will Be Beautiful Again (2016)](https://tdwi.org/articles/2016/11/22/data-models-will-be-beautiful-again.aspx) 
+ 
+<p align="right">Essay استدلال می‌کند که با وجود پایگاه‌های داده بدون schema، مدل‌سازی متفکرانه پایگاه داده برای به دست آوردن دانش و بینش با استفاده از الگوریتم‌ها مهم است.</p>
+
+- [Unified Data Modeling for Relational and NoSQL Databases](https://www.infoq.com/articles/unified-data-modeling-for-relational-and-nosql-databases/)
+
+<p align="right">راه حلی برای مدیریت هر دو پایگاه داده NoSQL و رابطه ای با استفاده از تکنیک Unified Data Modeling.</p>
+
+- [Unifying Relational, Document, Graph, and Temporal Data Models](https://fauna.com/blog/unifying-relational-document-graph-and-temporal-data-models)
+ 
+<p align="right">الگوهایی برای کوئری ها در چندین پارادایم در یک پایگاه داده.</p>
+
+- [How To Design Schema For Your NoSQL Database?](https://www.dataversity.net/how-to-design-schema-for-your-nosql-database/#) 
+
+<p align="right">علی‌رغم باور عمومی مبنی بر اینکه NoSQL بدون schema است، این مقاله به تشریح این موضوع می‌پردازد که چگونه پایگاه‌های داده NoSQL از «طراحی مبتنی بر کوئری» پیروی می‌کنند و ملاحظات مربوط به این انعطاف‌پذیری در schema</p>
+
+
+- [Best Practices for NoSQL Database Design (2012)](https://softwareengineering.stackexchange.com/q/158790/)
+
+<p align="right">چند پاسخ و پیوند برای طراحی پایگاه داده NoSQL.</p>
 
 
 ## Trade-Offs in CAP/Brewer's Theorem
