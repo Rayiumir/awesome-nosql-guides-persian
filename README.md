@@ -21,7 +21,7 @@
 - [مروری بر NoSQL](#overview-of-nosql)
 - [ساختار داده ها و مدل سازی](#data-structures-and-modeling)
 - [Trade-Offs در قضیه CAP/Brewer](#trade-offs-in-capbrewers-theorem)
-- [Crowd-Sourced Information](#crowd-sourced-information)
+- [اطلاعات با منبع جمعی](#crowd-sourced-information)
 - [Graph Databases](#graph-databases)
 - [Criticisms and Debates](#criticisms-and-debates)
 - [Miscellaneous](#miscellaneous)
@@ -167,12 +167,25 @@
 
 ## Crowd-Sourced Information
 
-- [/r/nosql](https://www.reddit.com/r/nosql/) - Reddit page on NoSQL on general questions and discussions people may have about NoSQL databases.
-- [[nosql] Tag On Stack Overflow](https://stackoverflow.com/tags/nosql/info)
-- [Ask HN: Learning NoSQL, Papers and Books (2017)](https://news.ycombinator.com/item?id=15427932) - "In your opinion, which papers and books are mandatory to really understand NoSQL subject?"
-- [Difference Between Scaling Horizontally And Vertically For Databases](https://stackoverflow.com/q/11707879/6873133) - Common terms talked about in the database world and here are answers from others.
-- [NoSQL - Wikipedia](https://en.wikipedia.org/wiki/NoSQL) - Wikipedia entry on all things NoSQL databases.
+- [/r/nosql](https://www.reddit.com/r/nosql/) 
 
+<p align="right">صفحه Reddit در NoSQL در مورد سوالات عمومی و بحث هایی که ممکن است افراد در مورد پایگاه های داده NoSQL داشته باشند.</p>
+
+- [[nosql] Tag On Stack Overflow](https://stackoverflow.com/tags/nosql/info)
+
+<p align="right">روی Overflow تگ کنید</p>
+
+- [Ask HN: Learning NoSQL, Papers and Books (2017)](https://news.ycombinator.com/item?id=15427932)
+
+<p align="right">"به نظر شما، کدام مقاله ها و کتاب ها برای درک واقعی موضوع NoSQL اجباری هستند؟"</p>
+
+- [Difference Between Scaling Horizontally And Vertically For Databases](https://stackoverflow.com/q/11707879/6873133)
+
+<p align="right">اصطلاحات رایجی که در دنیای پایگاه داده درباره آنها صحبت می شود و در اینجا پاسخ هایی از سوی کاربران وجود دارد.</p>
+
+- [NoSQL - Wikipedia](https://en.wikipedia.org/wiki/NoSQL)
+
+<p align="right">پایگاه داده NoSQL در ویکی پدیا</p>
 
 ## Graph Databases
 
