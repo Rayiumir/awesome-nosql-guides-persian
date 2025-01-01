@@ -1,23 +1,24 @@
-# Awesome NoSQL Guides [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# راهنمای عالی NoSQL [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> Curated list of resources and links about *using* NoSQL databases and things to look for when deciding to use one.
+> فهرست انتخاب شده از منابع و پیوندها در مورد *استفاده از* پایگاه داده های NoSQL و مواردی که هنگام تصمیم گیری برای استفاده از آن باید به دنبال آنها باشید.
 
-A basic definition of NoSQL databases can be found on Wikipedia as:
+تعریف پایه ای از پایگاه داده NoSQL را می توان در ویکی پدیا به صورت زیر یافت:
 
-> "A NoSQL (originally referring to 'non SQL' or 'non relational') database provides a mechanism for storage and retrieval of data which is modeled in means other than the tabular relations used in relational databases."
+> به دلیل محدودیت‌های کلاسیک SQL و مدرن شدن دنیای اینترنت و اطلاعات، کاربران و مدیران بخش داده‌ها به ارائه ایده‌های جدید با تمرکز بر تفکر «یک قالب مطابق با همه» یا “One size fits all” پرداخته‌اند که در آن قید و بندهای سیستم قبلی تا حد امکان موجود نباشد.
+در مدل NoSQL بنا به شیوه‌های مختلف، دیگر نیاز به طراحی و زمان طولانی برای طراحی پایگاه داده‌ها نمی‌باشد. در برخی از سرویس‌های NoSQL الگوریتم‌های هوشمندی هم به کار رفته‌است که دیگر نیازی به طراحی پایگاه داده نمی‌باشد و بر اساس ورودی‌های برنامه‌نویس و کاربر و تعیین نوع نیازمندی‌ها و پلتفرم و شرایط محیطی دیگر، نوع ذخیره‌سازی و مدیریت داده‌ها پیاده‌سازی می‌شود. 
 
-For actual NoSQL databases, you can go
-[here](https://github.com/sindresorhus/awesome#databases),
-[here](https://hostingdata.co.uk/nosql-database/),
-[here](https://db-engines.com/en/ranking),
-[here](https://dbdb.io/),
-[here](https://github.com/igorbarinov/awesome-data-engineering#databases), or
-[here](https://github.com/kahun/awesome-sysadmin#nosql). Also, not to be confused with the relational database management system, [NoSQL](http://www.strozzi.it/cgi-bin/CSA/tw7/I/en_US/nosql/Home%20Page).
+برای پایگاه داده های NoSQL واقعی، به سایت های
+[اینجا](https://github.com/sindresorhus/awesome#databases),
+[اینجا](https://hostingdata.co.uk/nosql-database/),
+[اینجا](https://db-engines.com/en/ranking),
+[اینجا](https://dbdb.io/),
+[اینجا](https://github.com/igorbarinov/awesome-data-engineering#databases), یا
+[اینجا](https://github.com/kahun/awesome-sysadmin#nosql). همچنین، نباید با سیستم مدیریت پایگاه داده رابطه ای اشتباه شود، [NoSQL](http://www.strozzi.it/cgi-bin/CSA/tw7/I/en_US/nosql/Home%20Page).
 
 
-## Contents
+## فهرست محتوا
 
-- [Overview of NoSQL](#overview-of-nosql)
+- [مروری بر NoSQL](#overview-of-nosql)
 - [Data Structures and Modeling](#data-structures-and-modeling)
 - [Trade-Offs in CAP/Brewer's Theorem](#trade-offs-in-capbrewers-theorem)
 - [Crowd-Sourced Information](#crowd-sourced-information)
@@ -26,27 +27,97 @@ For actual NoSQL databases, you can go
 - [Miscellaneous](#miscellaneous)
 
 
-## Overview of NoSQL
+## Overview of NoSQL 
 
-- [Introduction To NoSQL - Martin Fowler (54:52)](https://www.youtube.com/watch?v=qI_g07C_Q5I) - Talk given at GOTO 2012 as a great introduction to NoSQL databases, the types of NoSQL databases, their history, pros and cons, and how and when to use them.
-- [NoSQL Distilled](https://martinfowler.com/books/nosql.html) - Very digestable and affordable book describing the different NoSQL databases and help you make the decision on whether using a NoSQL database is appropriate for your project.
-- [Seven Databases in Song (1:43)](https://www.youtube.com/watch?v=jyx8iP5tfCI) - Fun song from 2012 about seven (six are NoSQL) databases with a very condensed overview of how they each work.
-- [NoSQL Databases: a Survey and Decision Guidance (2016)](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d) - "This NoSQL Toolbox allows us to derive a simple decision tree to help practitioners and researchers filter potential system candidates based on central application requirements".
-- [Data Management in the Cloud: Limitations and Opportunities (PDF)](http://www.cs.umd.edu/~abadi/papers/abadi-cloud-ieee09.pdf) - Abadi (2009) discusses limitations and opportunities of data management and data analysis in the cloud.
-- [10 NoSQL Misconceptions](https://web.archive.org/web/20210701080816/https://www.dummies.com/programming/big-data/10-nosql-misconceptions/) - Some misconceptions about NoSQL databases relating to topics such as what they are, ACID-compliance, and security.
-- [10 Reasons Developers Love NoSQL](https://web.archive.org/web/20210701080841/https://www.dummies.com/programming/big-data/10-reasons-developers-love-nosql/) - A list of ten arguments for why developers like to use NoSQL databases.
-- [Distribution, Data, Deployment: Software Architecture Convergence in Big Data Systems (PDF)](https://resources.sei.cmu.edu/library/asset-view.cfm?assetID=90909) - Gorton and Klein (2014) paper to discuss software engineering concerns when dealing with big data systems in terms of distribution, data, and deployment. Also accessible [here](https://doi.org/10.1109/MS.2014.51).
-- [Use cases for NoSQL (2017)](https://stackoverflow.com/questions/2875432/use-cases-for-nosql) - Discussion on Stack Overflow on best use cases for using NoSQL databases over traditional SQL databases.
-- [Five Common Data Stores and When to Use Them (2019)](https://shopify.engineering/five-common-data-stores-usage) - Article describes five common data stores (relational database, non-relational (“NoSQL”) database, key-value store, full-text search engine, message queue) and their attributes.
-- [NoSQL Databases (PDF)](https://web.archive.org/web/20190927222738/https://www.christof-strauch.de/nosqldbs.pdf) - A 149-page document outlining motives and rationale for NoSQL databases, and common concepts, techniques and patterns among these databases; last updated around 2011.
-- [NoSQL Data Architecture & Data Governance: Everything You Need to Know (2018)](https://www.dataversity.net/nosql-data-architecture-data-governance-everything-need-know/) - Overview of different NoSQL database architectures with diagrams.
-- [NoSQL vs SQL: Demystifying NoSQL Databases (2019)](https://build5nines.com/nosql-vs-sql-demystifying-nosql-databases/) - General overview and examples of NoSQL database schema types, while covering CAP theorem tradeoffs.
-- [Comparing Database Types: How Database Types Evolved to Meet Different Needs](https://www.prisma.io/dataguide/intro/comparing-database-types) - Good overview of databases in general and how NoSQL database types differ and can be useful.
-- [The NoSQL Ecosystem](https://www.aosabook.org/en/nosql.html) - A chapter written by Adam Marcus from "The Architecture of Open Source Applications" book, this chapter is geared more towards systems architects needing to learn more in-depth understanding of how these systems are built.
-- [What is NoSQL - Amazon AWS](https://aws.amazon.com/nosql/) - Great high-level overview of NoSQL databases and how they compare to SQL database technologies and terminologies.  Serves as landing page for Amazon's AWS services for NoSQL options of key-value (Amazon DynamoDB), document (Amazon DocumentDB), graph (Amazon Neptune), in-memory (Amazon ElastiCache), and search-engine (Amazon Elasticsearch) database.
-- [NoSQL vs. SQL: Important Differences & Which One Is Best for Your Project (2021) - Upwork](https://www.upwork.com/resources/nosql-vs-sql) - Explanation comparing SQL and NoSQL databases, along with giving some advice on what database solution is right for your use case.
-- [NoSQL Database Tutorial – Full Course for Beginners (2:54:52)](https://www.youtube.com/watch?v=xh4gy1lbL2k) - Ania Kubow reviews the four types of NoSQL databases and provides two hands-on projects to experiment with what was reviewed.
+- [Introduction To NoSQL - Martin Fowler (54:52)](https://www.youtube.com/watch?v=qI_g07C_Q5I)
 
+<p align="right"> سخنرانی ارائه شده در GOTO 2012 به عنوان مقدمه ای عالی برای پایگاه های داده NoSQL، انواع پایگاه های داده NoSQL، تاریخچه، مزایا و معایب آنها، و نحوه و زمان استفاده them.
+</p>
+
+- [NoSQL Distilled](https://martinfowler.com/books/nosql.html)
+
+<p align="right">کتاب بسیار قابل هضم و مقرون به صرفه ای است که پایگاه های داده مختلف NoSQL را توصیف می کند و به شما کمک می کند تا تصمیم بگیرید که آیا استفاده از پایگاه داده NoSQL برای پروژه شما مناسب است یا خیر.
+</p>
+
+- [Seven Databases in Song (1:43)](https://www.youtube.com/watch?v=jyx8iP5tfCI)
+
+<p align="right">ویدئو سرگرم کننده از سال 2012 در مورد هفت پایگاه داده (شش NoSQL) با نمای کلی بسیار فشرده از نحوه کار هر کدام.
+</p>
+
+- [NoSQL Databases: a Survey and Decision Guidance (2016)](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d)
+
+<p align="right">"این جعبه ابزار NoSQL به ما اجازه می دهد تا یک درخت تصمیم ساده استخراج کنیم تا به متخصصان و محققان کمک کند تا نامزدهای احتمالی سیستم را بر اساس الزامات برنامه مرکزی فیلتر کنند."
+</p>
+
+- [Data Management in the Cloud: Limitations and Opportunities (PDF)](http://www.cs.umd.edu/~abadi/papers/abadi-cloud-ieee09.pdf)
+
+<p align="right">Abadi (2009) محدودیت ها و فرصت های مدیریت داده و تجزیه و تحلیل داده ها را در فضای ابری مورد بحث قرار می دهد.
+</p>
+
+- [10 NoSQL Misconceptions](https://web.archive.org/web/20210701080816/https://www.dummies.com/programming/big-data/10-nosql-misconceptions/)
+
+<p align="right">برخی تصورات غلط در مورد پایگاه های داده NoSQL در رابطه با موضوعاتی مانند چیستی آنها، انطباق با ACID و امنیت.
+</p>
+
+- [10 Reasons Developers Love NoSQL](https://web.archive.org/web/20210701080841/https://www.dummies.com/programming/big-data/10-reasons-developers-love-nosql/)
+
+<p align="right"> لیستی از ده استدلال برای اینکه چرا توسعه دهندگان دوست دارند از پایگاه داده NoSQL استفاده کنند.
+</p>
+
+- [Distribution, Data, Deployment: Software Architecture Convergence in Big Data Systems (PDF)](https://resources.sei.cmu.edu/library/asset-view.cfm?assetID=90909)
+
+<p align="right">گورتون و کلاین (2014) مقاله ای برای بحث در مورد نگرانی های مهندسی نرم افزار هنگام برخورد با سیستم های کلان داده از نظر توزیع، داده و استقرار. دسترسی از اینجا.
+  [اینجا](https://doi.org/10.1109/MS.2014.51)
+</p>
+
+- [Use cases for NoSQL (2017)](https://stackoverflow.com/questions/2875432/use-cases-for-nosql)
+
+<p align="right">حث در مورد Stack Overflow در مورد بهترین موارد استفاده برای استفاده از پایگاه‌های داده NoSQL بر روی پایگاه‌های داده سنتی SQL.
+</p>
+
+- [Five Common Data Stores and When to Use Them (2019)](https://shopify.engineering/five-common-data-stores-usage)
+
+<p align="right">مقاله پنج ذخیره‌گاه داده رایج (پایگاه داده رابطه‌ای، غیرمرتبط (“ NoSQL") پایگاه داده، ذخیره کلید-مقدار، موتور جستجوی متن کامل، صف پیام) و ویژگی های آنها.
+</p>
+
+- [NoSQL Databases (PDF)](https://web.archive.org/web/20190927222738/https://www.christof-strauch.de/nosqldbs.pdf)
+
+<p align="right">یک صفحه 149 صفحه‌ای که انگیزه‌ها و دلایل منطقی برای پایگاه های داده NoSQL و مفاهیم، ​​تکنیک ها و الگوهای رایج در میان این پایگاه های داده. آخرین به روز رسانی در حدود 2011.
+</p>
+
+- [NoSQL Data Architecture & Data Governance: Everything You Need to Know (2018)](https://www.dataversity.net/nosql-data-architecture-data-governance-everything-need-know/)
+
+<p align="right">مروری بر موارد مختلف معماری پایگاه داده NoSQL با نمودار.
+</p>
+
+- [NoSQL vs SQL: Demystifying NoSQL Databases (2019)](https://build5nines.com/nosql-vs-sql-demystifying-nosql-databases/)
+
+<p align="right">نمای کلی و نمونه‌هایی از انواع طرح‌های پایگاه داده NoSQL، در حالی که قضیه CAP را پوشش می‌دهد.
+</p>
+
+- [Comparing Database Types: How Database Types Evolved to Meet Different Needs](https://www.prisma.io/dataguide/intro/comparing-database-types)
+
+<p align="right">مروری خوب بر پایگاه های داده به طور کلی و نحوه تفاوت انواع پایگاه داده NoSQL و می تواند مفید باشد.
+</p>
+
+- [The NoSQL Ecosystem](https://www.aosabook.org/en/nosql.html)
+
+<p align="right">فصلی که توسط آدام مارکوس از کتاب "معماری برنامه های کاربردی منبع باز" نوشته شده است، این فصل بیشتر به سمت معماران سیستم مورد نیاز است. برای یادگیری درک عمیق تر از نحوه ساخت این سیستم ها.
+</p>
+
+- [What is NoSQL - Amazon AWS](https://aws.amazon.com/nosql/)
+<p align="right">مروری عالی در سطح بالا از پایگاه‌های داده NoSQL و نحوه مقایسه آنها با فناوری‌ها و اصطلاحات پایگاه داده SQL. به عنوان صفحه فرود برای خدمات AWS آمازون برای گزینه های NoSQL از ارزش کلید (Amazon DynamoDB)، سند (Amazon DocumentDB)، نمودار (Amazon Neptune)، حافظه داخلی (Amazon ElastiCache)، و موتور جستجو (Amazon Elasticsearch) پایگاه داده عمل می کند.
+</p>
+
+- [NoSQL vs. SQL: Important Differences & Which One Is Best for Your Project (2021) - Upwork](https://www.upwork.com/resources/nosql-vs-sql)
+
+<p align="right"> توضیح مقایسه پایگاه‌های داده SQL و NoSQL، همراه با ارائه برخی توصیه ها در مورد اینکه چه راه حل پایگاه داده برای مورد استفاده شما مناسب است.
+</p>
+
+- [NoSQL Database Tutorial – Full Course for Beginners (2:54:52)](https://www.youtube.com/watch?v=xh4gy1lbL2k)
+
+<p align="right"> مدرس Ania Kubow چهار نوع پایگاه داده NoSQL را بررسی می کند و دو دست را ارائه می دهد. در پروژه ها برای آزمایش با آنچه مورد بررسی قرار گرفت.
+</p>
 
 ## Data Structures and Modeling
 
