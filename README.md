@@ -23,7 +23,7 @@
 - [Trade-Offs در قضیه CAP/Brewer](#trade-offs-in-capbrewers-theorem)
 - [اطلاعات با منبع جمعی](#crowd-sourced-information)
 - [دیتابیس های گراف](#graph-databases)
-- [Criticisms and Debates](#criticisms-and-debates)
+- [نقد و مناظره](#criticisms-and-debates)
 - [Miscellaneous](#miscellaneous)
 
 
@@ -215,10 +215,20 @@
 
 ## Criticisms and Debates
 
-- [Addressing the NoSQL Criticism (2011)](https://www.bradley-holt.com/2011/07/addressing-the-nosql-criticism/) - Argues against nine criticisms to NoSQL databases as they apply to CouchDB, but may apply to others as well.
-- [Thank You For Your Help NoSQL, But We Got It From Here (2020)](https://web.archive.org/web/20200913032621/https://www.memsql.com/blog/why-nosql-databases-wrong-tool-for-modern-application/) - Argument that NoSQL databases have pushed the evolution of databases given the problem of scaling, but now NewSQL has addressed those concerns (from the perspective of MemSQL).
-- [The Five Stages Of NoSQL (2016)](https://sookocheff.com/post/opinion/the-five-stages-of-nosql/) - Stages of going through picking and using a NoSQL database mirroring the five stages of grief.
-- [The Biggest Challenges Of Moving To NoSQL (2017)](https://dzone.com/articles/the-biggest-challenges-of-moving-to-nosql) - Speed and scalability and developer joy have been the gains found from enduring through challenges of moving to NoSQL.
+- [Addressing the NoSQL Criticism (2011)](https://www.bradley-holt.com/2011/07/addressing-the-nosql-criticism/)
+
+<p align="right">در مقابل 9 انتقاد به پایگاه‌های داده NoSQL همانطور که برای CouchDB اعمال می‌شود، استدلال می‌کند، اما ممکن است برای دیگران نیز اعمال شود.</p>
+
+- [Thank You For Your Help NoSQL, But We Got It From Here (2020)](https://web.archive.org/web/20200913032621/https://www.memsql.com/blog/why-nosql-databases-wrong-tool-for-modern-application/)
+<p align="right">استدلال می‌شود که پایگاه‌های داده NoSQL با توجه به مشکل مقیاس‌بندی، تکامل پایگاه‌های داده را تحت فشار قرار داده‌اند، اما اکنون NewSQL به این نگرانی‌ها (از دیدگاه MemSQL) پرداخته است.</p>
+
+- [The Five Stages Of NoSQL (2016)](https://sookocheff.com/post/opinion/the-five-stages-of-nosql/)
+
+<p align="right">مراحل انتخاب و استفاده از پایگاه داده NoSQL که پنج مرحله ناراحت کننده را منعکس می کند.</p>
+
+- [The Biggest Challenges Of Moving To NoSQL (2017)](https://dzone.com/articles/the-biggest-challenges-of-moving-to-nosql)
+
+<p align="right">سرعت و مقیاس‌پذیری و لذت توسعه‌دهنده، دستاوردهای حاصل از تحمل چالش‌های انتقال به NoSQL بوده است.</p>
 
 
 ## Miscellaneous
