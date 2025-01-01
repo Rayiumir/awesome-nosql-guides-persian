@@ -22,7 +22,7 @@
 - [ساختار داده ها و مدل سازی](#data-structures-and-modeling)
 - [Trade-Offs در قضیه CAP/Brewer](#trade-offs-in-capbrewers-theorem)
 - [اطلاعات با منبع جمعی](#crowd-sourced-information)
-- [Graph Databases](#graph-databases)
+- [دیتابیس های گراف](#graph-databases)
 - [Criticisms and Debates](#criticisms-and-debates)
 - [Miscellaneous](#miscellaneous)
 
@@ -189,11 +189,28 @@
 
 ## Graph Databases
 
-- [Graph Databases Use Cases](https://neo4j.com/use-cases/) - Although documents geared towards Neo4j, concepts are applicable to all graph databases.
-- [How The ICIJ Used Neo4j To Unravel The Panama Papers - Mar Cabra (32:02)](https://www.youtube.com/watch?v=S20XMQyvANY) - Learn how graph databases were key to explore who were the main names connected to companies in tax havens, including 140 politicians in more than 50 countries.
-- [Graph Databases For Beginners: The Basics Of Data Modeling](https://neo4j.com/blog/data-modeling-basics/) - Discusses the basics of modeling your data and which approach you should take.
-- [Graph Data Modeling Guidelines](https://neo4j.com/developer/guide-data-modeling/) - Directly related to Neo4j, but possibly applicable to any graph database.
-- [Graph Data Modeling Visualize Structure and Meaning](http://www.graphdatamodeling.com) - Brief introduction to graph data modeling and is an introduction to the book "Graph Data Modeling for NoSQL and SQL" by Thomas Frisendal.
+- [Graph Databases Use Cases](https://neo4j.com/use-cases/)
+
+<p align="right">اگرچه اسناد به سمت Neo4j تنظیم شده اند، مفاهیم برای همه پایگاه های داده گراف قابل اجرا هستند.</p>
+
+- [How The ICIJ Used Neo4j To Unravel The Panama Papers - Mar Cabra (32:02)](https://www.youtube.com/watch?v=S20XMQyvANY)
+
+<p align="right">بیاموزید که چگونه پایگاه‌های اطلاعاتی نمودار برای کشف نام‌های اصلی مرتبط با شرکت‌ها در بهشت‌های مالیاتی، از جمله 140 سیاستمدار در بیش از 50 کشور، کلیدی بودند.</p>
+
+
+- [Graph Databases For Beginners: The Basics Of Data Modeling](https://neo4j.com/blog/data-modeling-basics/)
+
+<p align="right">در مورد اصول مدل‌سازی داده‌های شما و اینکه کدام رویکرد را باید در نظر بگیرید، بحث می‌کند.</p>
+
+
+- [Graph Data Modeling Guidelines](https://neo4j.com/developer/guide-data-modeling/)
+
+<p align="right">مستقیماً با Neo4j مرتبط است، اما احتمالاً برای هر پایگاه داده گرافی قابل استفاده است.</p>
+
+
+- [Graph Data Modeling Visualize Structure and Meaning](http://www.graphdatamodeling.com)
+
+<p align="right">مقدمه ای مختصر بر مدل سازی داده های نموداری و مقدمه ای بر کتاب «مدل سازی داده های نموداری برای NoSQL و SQL» نوشته توماس فریزندال می باشد.</p>
 
 
 ## Criticisms and Debates
