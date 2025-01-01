@@ -24,7 +24,7 @@
 - [اطلاعات با منبع جمعی](#crowd-sourced-information)
 - [دیتابیس های گراف](#graph-databases)
 - [نقد و مناظره](#criticisms-and-debates)
-- [Miscellaneous](#miscellaneous)
+- [متفرقه](#miscellaneous)
 
 
 ## Overview of NoSQL 
@@ -233,8 +233,22 @@
 
 ## Miscellaneous
 
-- [What As A NoSQL Database? Learn By Writing One In Python](https://web.archive.org/web/20201109032031/https://jeffknupp.com/blog/2014/09/01/what-is-a-nosql-database-learn-by-writing-one-in-python/) - Excellent tutorial in learning NoSQL vs RDBMS through building a toy database using Python.
-- [Dynamo Vs Cassandra : Systems Design Of NoSQL Databases](https://sujithjay.com/data-systems/dynamo-cassandra/) - Blog post comparing and constrating system designs of two well known NoSQL databases.
-- [Why You Should Build Your Wwn NoSQL Database](https://medium.com/@marceloboeira/why-you-should-build-your-own-nosql-database-9bbba42039f5) - Brief overview of NoSQL databases and the spectrum of schema, along with a very basic implementation of a NoSQL database using the Crystal programming language.
-- [PostgreSQL, The NoSQL Database (2015)](https://www.linuxjournal.com/content/postgresql-nosql-database) - An argument for PostgreSQL being an alternative to NoSQL databases with NoSQL-like features using its new features like HStore (key-value store) and JSONB (document-based) as of Version 9.4.
+- [What As A NoSQL Database? Learn By Writing One In Python](https://web.archive.org/web/20201109032031/https://jeffknupp.com/blog/2014/09/01/what-is-a-nosql-database-learn-by-writing-one-in-python/)
+
+<p align="right">آموزش عالی در یادگیری NoSQL در مقابل RDBMS از طریق ساخت پایگاه داده اسباب بازی با استفاده از پایتون.</p>
+
+- [Dynamo Vs Cassandra : Systems Design Of NoSQL Databases](https://sujithjay.com/data-systems/dynamo-cassandra/)
+
+<p align="right">پست وبلاگ مقایسه و تضاد طراحی سیستم دو پایگاه داده معروف NoSQL.</p>
+
+- [Why You Should Build Your Wwn NoSQL Database](https://medium.com/@marceloboeira/why-you-should-build-your-own-nosql-database-9bbba42039f5)
+
+<p align="right">مروری کوتاه بر پایگاه‌های داده NoSQL و طیف schema، به همراه اجرای بسیار ابتدایی پایگاه داده NoSQL با استفاده از زبان برنامه‌نویسی کریستال.</p>
+
+
+- [PostgreSQL, The NoSQL Database (2015)](https://www.linuxjournal.com/content/postgresql-nosql-database)
+
+<p align="right">استدلالی برای اینکه PostgreSQL جایگزینی برای پایگاه‌های داده NoSQL با ویژگی‌های NoSQL مانند با استفاده از ویژگی‌های جدید آن مانند HStore (key-value store) و JSONB (مبتنی بر document) در نسخه 9.4 است.</p>
+
+
 
