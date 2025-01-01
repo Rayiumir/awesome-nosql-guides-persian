@@ -20,7 +20,7 @@
 
 - [مروری بر NoSQL](#overview-of-nosql)
 - [ساختار داده ها و مدل سازی](#data-structures-and-modeling)
-- [Trade-Offs in CAP/Brewer's Theorem](#trade-offs-in-capbrewers-theorem)
+- [Trade-Offs در قضیه CAP/Brewer](#trade-offs-in-capbrewers-theorem)
 - [Crowd-Sourced Information](#crowd-sourced-information)
 - [Graph Databases](#graph-databases)
 - [Criticisms and Debates](#criticisms-and-debates)
@@ -157,9 +157,13 @@
 
 ## Trade-Offs in CAP/Brewer's Theorem
 
-- [Visual Guide To NoSQL Systems (2010)](http://blog.nahurst.com/visual-guide-to-nosql-systems) - Visual display of trade-offs in the CAP theorem among different NoSQL databases.
-- [How to Choose The Right NoSQL Database For Your Application? (2018)](https://www.dataversity.net/choose-right-nosql-database-application/) - Reviews CAP theorem and maps common NoSQL databases to CAP categories to help choose one.
+- [Visual Guide To NoSQL Systems (2010)](http://blog.nahurst.com/visual-guide-to-nosql-systems)
 
+  <p align="right">نمایش بصری trade-offs در قضیه CAP در میان پایگاه‌های داده مختلف NoSQL.</p>
+
+- [How to Choose The Right NoSQL Database For Your Application? (2018)](https://www.dataversity.net/choose-right-nosql-database-application/)
+
+<p align="right">قضیه CAP را بررسی می کند و پایگاه های داده رایج NoSQL را به دسته های CAP ترسیم می کند تا به انتخاب یکی کمک کند.</p>
 
 ## Crowd-Sourced Information
 
